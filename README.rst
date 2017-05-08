@@ -1,6 +1,9 @@
+=========
 Recondite
----------
-# Description
+=========
+
+Description
+-----------
 Tools for streamlining data reconciliation with Wikidata, focused on efficiency
 in gathering data and on streamlining the task of data matching.
 
@@ -10,7 +13,8 @@ defined information in a visually-coded way to streamline rapid analysis by a
 subject matter expert or data analyst; and (3) support iterative analysis with
 smart handling of "check status" and "false positive" information.
 
-# Pseudocode describing what Recondite should do:
+Pseudo-code describing what Recondite should do
+----------------------------------------------
 1. Get user defined list of properties to pull from Wikidata when looking up
 entities.
 
@@ -22,7 +26,8 @@ result, with properties pulled from Wikidata placed next to data provided in the
 input dataset, with a "check" column implemented which clearly shows whether
 values in this field match.
 
-# Current state and future plans
+Current state and future plans
+------------------------------
 Development is still quite early, with lots of the overall workflow still
 happening manually. I'm also still new enough to Python that although I'm using
 functions, this is not yet a mature library or command-line tool per se. This
@@ -35,7 +40,9 @@ large datasets (thousands of rows) with Wikidata. This explains the current
 focus on English only, for example, and the specific parameters that I've
 included so far.
 
-TODOs are noted in the code itself, but some larger goals for Recondite include:
+Technical TODOs are noted in the code itself, but some larger goals for
+Recondite include:
+
 - Get Wikidata bot approval so >50 records can be requested at once via API
 - Actually document functions
 - Write tests
