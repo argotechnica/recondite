@@ -49,10 +49,11 @@ Recondite include:
 - Package Excel or ODT templates for input/output of data
 - Get on Wikidata community pages and maybe PyPi once it's more mature
 
-# References:
-[1] https://www.mediawiki.org/wiki/API:Etiquette
-[2] https://www.wikidata.org/wiki/Special:ApiHelp/wbgetentities
-[3] https://www.wikidata.org/w/api.php?action=help&modules=query
-[4] https://www.wikidata.org/wiki/Wikidata:Creating_a_bot
-[5] https://python-packaging.readthedocs.io/en/latest/
-[6] https://gist.github.com/sloria/7001839
+References
+----------
+1. https://www.mediawiki.org/wiki/API:Etiquette
+2. https://www.wikidata.org/wiki/Special:ApiHelp/wbgetentities
+3. https://www.wikidata.org/w/api.php?action=help&modules=query
+4. https://www.wikidata.org/wiki/Wikidata:Creating_a_bot
+5. https://python-packaging.readthedocs.io/en/latest/
+6. https://gist.github.com/sloria/7001839
