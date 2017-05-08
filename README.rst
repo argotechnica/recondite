@@ -13,8 +13,12 @@ defined information in a visually-coded way to streamline rapid analysis by a
 subject matter expert or data analyst; and (3) support iterative analysis with
 smart handling of "check status" and "false positive" information.
 
-Pseudo-code describing what Recondite should do
-----------------------------------------------
+High-level task description
+---------------------------
+For a detailed description of functions, the best place to look is at comments
+on functions in the main code file. The following describes the workflow that
+a user is assumed to want to take with Recondite:
+
 1. Get user defined list of properties to pull from Wikidata when looking up
 entities.
 
