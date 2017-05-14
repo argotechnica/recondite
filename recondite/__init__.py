@@ -207,10 +207,10 @@ def parse_claim_properties(claims, props='P31'):
     """
     properties = dict()
     for itemid, propdict in claims.items():
+        properties[itemid] = dict()
         for propid, values in propdict.items():
             if str(propid) in props.split(','):
                 try:
-                    properties[itemid] = dict()
                     proptype = values[0]['mainsnak']['datavalue']['type']
                     if proptype == 'wikibase-entityid':
                         properties[itemid][propid] = values[0]['mainsnak']['datavalue']['value']['id']
